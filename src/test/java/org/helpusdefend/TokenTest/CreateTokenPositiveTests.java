@@ -27,8 +27,8 @@ public class CreateTokenPositiveTests {
     }
 
     @Test
-    @Description("Test Case 1.1: Successful Token Creation returns HTTP 200 OK")
-    @DisplayName("Success creation token returns 200 OK")
+    @Description("Success creation token returns 200 OK")
+    @DisplayName("Test Case 1.1: Successful Token Creation returns HTTP 200 OK")
     public void createUserTokenSuccessfullyTest() throws IOException {
         createUserAndToken(200);
     }

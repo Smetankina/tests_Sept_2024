@@ -20,8 +20,8 @@ public class PutTokenPositiveTests {
     }
 
     @Test
-    @Description("Test Case 2.1: Token Found")
-    @DisplayName("Test Case 2.1: Token Found returns 200 OK")
+    @Description("Test Case 2.1: Token Found returns 200 OK")
+    @DisplayName("Test Case 2.1: Token Found")
     public void putUserTokenSuccessfullyTest(){
         tokenClient.createToken(user);
         tokenClient.checkToken(user)

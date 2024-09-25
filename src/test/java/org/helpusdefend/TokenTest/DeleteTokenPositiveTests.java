@@ -29,7 +29,7 @@ public class DeleteTokenPositiveTests {
 
     @Test
     @Description("Verify successful deletion of user token returns HTTP 200 OK")
-    @DisplayName("Success delete token returns 200 OK")
+    @DisplayName("Test Case 3.1: Success delete token returns 200 OK")
     public void deleteUserTokenSuccessfullyTest() throws IOException {
         createUserAndToken();
         deleteUserToken(200); // Expect for the token to be successfully deleted
@@ -37,7 +37,7 @@ public class DeleteTokenPositiveTests {
 
     @Test
     @Description("Verify deletion of non-existent user token returns 404 Not Found")
-    @DisplayName("Attempt to delete non-existent token returns 404 Not Found")
+    @DisplayName("Test Case 3.2: Attempt to delete non-existent token returns 404 Not Found")
     public void deleteNonExistentTokenTest() throws IOException {
         createUserAndToken();
         deleteUserToken(200); // Expect for the token to be successfully deleted first time

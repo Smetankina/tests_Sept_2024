@@ -36,8 +36,8 @@ public class CreateTokenNegativeTests {
 
     //Missing field id and token Body:{}
     @Test
-    @Description("Test Case 1.2.2: Missing Fields in Request returns 400 Bad request")
-    @DisplayName("Missing Id Token Fields in Request returns 400 Bad request")
+    @Description("Missing Id Token Fields in Request returns 400 Bad request")
+    @DisplayName("Test Case 1.2.2: Missing Fields in Request returns 400 Bad request")
     public void createUserTokenMissingFieldTest() throws IOException {
         tokenClient.createToken(new User())
                 .then().statusCode(400);
@@ -45,8 +45,8 @@ public class CreateTokenNegativeTests {
 
     //Empty id:""
     @Test
-    @Description("Test Case 1.3.1: Invalid Data Types (the empty Id field) returns 400 Bad request")
-    @DisplayName("Empty Id Fields in Request returns 400 Bad request")
+    @Description("Empty Id Fields in Request returns 400 Bad request")
+    @DisplayName("Test Case 1.3.1: Invalid Data Types (the empty Id field) returns 400 Bad request")
     public void createUserTokenEmptyIdFieldTest() throws IOException {
         tokenClient.createToken(new User("", RandomStringUtils.random(50, true, true)))
                 .then().statusCode(400);
@@ -54,8 +54,8 @@ public class CreateTokenNegativeTests {
 
     //Empty token:""
     @Test
-    @Description("Test Case 1.3.2: Invalid Data Types (the empty Token field) returns 400 Bad request")
-    @DisplayName("Empty Token Fields in Request returns 400 Bad request")
+    @Description("Empty Token Fields in Request returns 400 Bad request")
+    @DisplayName("Test Case 1.3.2: Invalid Data Types (the empty Token field) returns 400 Bad request")
     public void createUserTokenEmptyTokenFieldTest() throws IOException {
         tokenClient.createToken(new User(RandomStringUtils.random(50, false, true)))
                 .then().statusCode(400);
