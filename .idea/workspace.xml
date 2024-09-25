@@ -5,19 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d85936-bd0e-4ff6-bbd0-b5b85fd76489" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/017799f7-386d-4826-b634-c7f54622bbaa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/05b767f8-a857-44be-9b4e-e4fd708d5705-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/06582549-d9b6-410a-919c-fd7a59934281-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/075f7475-140a-4104-9e5d-c9905fac5e1b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0798ac98-7ba2-4288-b9bf-781627728fbf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/08d800ea-2437-4566-9705-658bc7e4a590-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0b297543-310e-4ced-9143-e9fcd616346b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0b36fbae-52a6-4253-acc0-38dc1ac65df1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0bb1cee7-fd0e-49dc-a1a9-c34256ccee3c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0ce62516-a256-44a1-9856-7922a9d6f653-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/125de299-b854-409e-b5e7-118ec50bedb4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1580e954-de28-4e69-a060-fdcf9ec5d93b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/163ff4e9-a8de-4ac0-aa91-3ab467d5d5b9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1bb6678f-5275-4bf5-ab23-76ff274abe4b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1d198210-3cf9-4055-b736-e40c1a223052-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/204fa548-9302-4be5-ab25-a563ac426198-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/285ce8a5-d3e6-4c91-b237-6bfb9e1744c4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/29cfeecf-ec85-451c-8214-4809c78b7a40-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2bc32673-8698-4bf1-9922-2d545f5ec035-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2d80f1d9-18a6-4f35-a602-efcdb0e57bf9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3065ec71-39ba-4c58-a32a-29703d6b21f7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/30d45f3c-6d6a-4f32-a7cb-93dd03308815-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/31442969-2b80-49a6-8f69-8559f0dd525a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/323e651f-e505-4255-a46c-fbc171c88fd6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3a8d7036-1c89-47a5-94d1-ee72eb15d41e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3cc4f87d-3540-408d-a8f9-135f65baae5c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3f3dec24-ca7d-49b9-985d-5ce2f00782b6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3fc2dd8a-0d02-4aaf-8151-a3fd9ed7b3c0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/451cffff-aca7-4803-9a43-10fedeed8d8f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/49787246-4a73-4b9e-a285-c6d9c354826f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4b811396-564e-4793-b2a2-44505902db4e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4d9c919e-7f4c-44a9-9e3b-b9ea24b22569-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4ef0d785-54ec-4149-a366-dd34aa0dbf0f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/53516413-9fc1-4318-b7fb-52b746a9f0e9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/559ff98a-d861-4276-8fa0-9cf7acd45ba1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/58f8aa23-0e52-4a70-a595-44b20f2b0f07-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5ab5034d-9b65-4d7f-8b14-95c905a0d81e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/61552f66-3fc8-4f7d-bc7e-ab0359a87daa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/63b2a58c-b8ae-4e2c-a3f6-17d8e3b8a3c4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6560e64e-459e-40aa-8ebc-5ba4f4f6e91c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/696234cd-7c13-42d2-8c51-764989d8e5df-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6abd3b60-419a-489c-9025-ea27c66c8167-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6cad0b97-07d1-4d9b-8cb3-f6cd2ae10143-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6e635694-e5f6-4caf-8fa3-02b904e14a06-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/725cab94-5ebc-468c-b105-7e081a39a4aa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7fc78a73-f7f5-44c5-a802-f34f38579404-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8c5f24e1-0cd7-4c84-8988-3907bb7bbb6a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/90a0f484-0aa3-4b26-ae00-6ad99ed46f05-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/91cce756-e478-4ef0-8fd6-1493480073ef-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/92aaadd7-1f10-4637-a008-f252e44b12a1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/93402a9d-b383-47d2-89e1-733eba7cc9df-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/93f83e8c-f02f-488f-a4f6-b2906c211e6e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/951561f7-41e0-4305-9903-8217d52c117c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/98e78e78-861e-41ed-a7e2-dcc4e729b2fe-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/993361f5-bcb1-435e-b38c-b75e7472ab10-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9de869f9-3bc5-4b54-a691-a877a2046ce2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9df29151-5632-45ba-874c-71831073f1da-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9e7c3a78-2371-4204-b895-fa558062ad88-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9e94b95b-7097-4bb3-8cf6-76e1bdf66852-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9e983c2d-592c-4464-a36d-7a9445761664-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9fce8909-2990-4fae-b188-882013360ecb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a22b13b1-f842-4eba-a609-5afb4993d668-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a8a63b8c-8592-4d31-bdab-a1aaf663b1ed-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/acb18f83-bfc1-4894-9e3e-4002f3726324-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b2e2ef6c-8ce8-4206-b53b-9fb66d5264b1-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b3618576-d2ec-40bd-b104-b28af92c38c2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b39fae95-ef74-4d01-af49-a0b967ff7d37-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b5f300c7-10ba-4e4f-bf87-75387f8caec4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b87fb64e-237d-4b84-a7b5-e244bd55d688-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c5bd3ec7-5c22-4a76-8a00-f4b659bf4aa5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cd7add6c-acd7-4046-bf2a-7222e145494b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cf7faef1-4cb6-4599-862c-b46430e9a7dd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cfed8ada-2d1d-407c-b2da-33368d1faa0c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d1c4648e-066c-4ada-a9f1-3de470b34ee3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d7012e75-7939-451c-8d68-58d3b21db064-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d9c71cce-9510-45d1-b2ae-72c32e86de21-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e11359eb-d284-442a-98a6-c5e194f863dd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e3aaea04-5281-44f2-915a-79a511a0dc9a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e583cee3-6df5-486d-83ac-98d97186f2ff-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e5af6cfb-c586-4988-bfa1-ecb5ac5b9221-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e7799f8a-bdda-4e4a-a665-f872b7c3ba21-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e806df1f-7b2d-4d98-aabe-5226aedc407f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e88c5c3f-a3fe-434f-9c95-864cd2874231-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ea31c2dc-9734-483e-aed6-2a5848839e56-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ec1697d2-6bc4-4f4d-9332-831d6b9c3409-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ef011df0-c144-4d91-a874-559b6897df32-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f0a16ea0-7628-4847-b990-0237d008e8c4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f3ab5417-a1bc-4f20-ad82-359cc799a769-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f66b4fae-4dff-4a43-b9d9-77bf4ddf3d21-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fd17d118-1fd1-42ef-9d6d-4da262f4d164-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fee09505-ef22-4a8e-bddd-164e2784c49e-container.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpusdefend/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpusdefend/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpusdefend/client/AccessTokenGenerationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpusdefend/client/AccessTokenGenerationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpusdefend/client/TokenClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpusdefend/client/TokenClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpusdefend/model/RandomUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpusdefend/model/RandomUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/helpusdefend/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/helpusdefend/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/helpusdefend/TokenTest/CreateTokenNegativeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/helpusdefend/TokenTest/CreateTokenNegativeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/helpusdefend/TokenTest/CreateTokenPositiveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/helpusdefend/TokenTest/CreateTokenPositiveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/helpusdefend/TokenTest/DeleteTokenPositiveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/helpusdefend/TokenTest/DeleteTokenPositiveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/helpusdefend/TokenTest/PutTokenPositiveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/helpusdefend/TokenTest/PutTokenPositiveTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2mJ2OZGzhTVcE1QuDtqoyiQ4XKk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,12 +135,111 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CreateTokenNegativeTests.executor": "Run",
+    "JUnit.CreateTokenPositiveTests.createUserTokenMissingFieldTest.executor": "Run",
+    "JUnit.CreateTokenPositiveTests.createUserTokenMissingIdFieldTest.executor": "Run",
+    "JUnit.CreateTokenPositiveTests.createUserTokenSuccessfullyTest.executor": "Run",
+    "JUnit.DeleteTokenPositiveTests.deleteNonExistentTokenTest.executor": "Run",
+    "JUnit.DeleteTokenPositiveTests.deleteUserTest.executor": "Run",
+    "JUnit.DeleteTokenPositiveTests.executor": "Run",
+    "JUnit.org.helpusdefend.TokenTest in access_token_generation_tests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Anna/IdeaProjects/access_token_generation_tests/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "D:/Java/Diplom_Anna_Smetankina_15/Diplom_3",
+    "onboarding.tips.debug.path": "C:/Users/Anna/IdeaProjects/access_token_generation_tests/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.org.helpusdefend.TokenTest in access_token_generation_tests">
+    <configuration name="CreateTokenNegativeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="access_token_generation_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.helpusdefend.TokenTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.helpusdefend.TokenTest" />
+      <option name="MAIN_CLASS_NAME" value="org.helpusdefend.TokenTest.CreateTokenNegativeTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateTokenPositiveTests.createUserTokenMissingFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="access_token_generation_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.helpusdefend.TokenTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.helpusdefend.TokenTest" />
+      <option name="MAIN_CLASS_NAME" value="org.helpusdefend.TokenTest.CreateTokenPositiveTests" />
+      <option name="METHOD_NAME" value="createUserTokenMissingFieldTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateTokenPositiveTests.createUserTokenMissingIdFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="access_token_generation_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.helpusdefend.TokenTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.helpusdefend.TokenTest" />
+      <option name="MAIN_CLASS_NAME" value="org.helpusdefend.TokenTest.CreateTokenPositiveTests" />
+      <option name="METHOD_NAME" value="createUserTokenMissingIdFieldTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateTokenPositiveTests.createUserTokenSuccessfullyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="access_token_generation_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.helpusdefend.TokenTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.helpusdefend.TokenTest" />
+      <option name="MAIN_CLASS_NAME" value="org.helpusdefend.TokenTest.CreateTokenPositiveTests" />
+      <option name="METHOD_NAME" value="createUserTokenSuccessfullyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.helpusdefend.TokenTest in access_token_generation_tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="access_token_generation_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.helpusdefend.TokenTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.helpusdefend.TokenTest" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.org.helpusdefend.TokenTest in access_token_generation_tests" />
+        <item itemvalue="JUnit.CreateTokenNegativeTests" />
+        <item itemvalue="JUnit.CreateTokenPositiveTests.createUserTokenMissingFieldTest" />
+        <item itemvalue="JUnit.CreateTokenPositiveTests.createUserTokenMissingIdFieldTest" />
+        <item itemvalue="JUnit.CreateTokenPositiveTests.createUserTokenSuccessfullyTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +255,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/helpusdefend/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

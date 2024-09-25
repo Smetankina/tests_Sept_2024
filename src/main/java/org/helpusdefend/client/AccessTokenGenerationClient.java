@@ -1,4 +1,4 @@
-package org.defend.client;
+package org.helpusdefend.client;
 
 import java.io.IOException;
 
@@ -11,16 +11,16 @@ import io.restassured.specification.RequestSpecification;
 import static io.restassured.RestAssured.baseURI;
 
 public class AccessTokenGenerationClient {
-
+//method for reading config.properties
     public static String readProperties(String property) throws IOException {
         System.getProperties().load(ClassLoader.getSystemResourceAsStream("config.properties"));
         return System.getProperty(property);
     }
 
-    protected RequestSpecification baseSpec() {
+    protected RequestSpecification baseSpec() throws IOException {
         return new RequestSpecBuilder()
                 .setContentType(ContentType.JSON)
-                .setBaseUri(baseURI)
+                .setBaseUri(readProperties("baseURL"))
                 .build();
     }
 }
