@@ -11,8 +11,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>22</maven.compiler.source>
-        <maven.compiler.target>22</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>  <!-- Changed to 17 -->
+        <maven.compiler.target>17</maven.compiler.target>  <!-- Changed to 17 -->
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -24,7 +24,7 @@
     </properties>
 
     <dependencies>
-        <!-- RestAssured для API тестирования -->
+        <!-- RestAssured for API testing -->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
@@ -32,7 +32,7 @@
             <scope>compile</scope>
         </dependency>
 
-        <!-- Allure и JUnit 5 интеграция (для тестов) -->
+        <!-- Allure and JUnit 5 integration (for tests) -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit5</artifactId>
@@ -40,7 +40,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Allure и RestAssured интеграция (для тестов) -->
+        <!-- Allure and RestAssured integration (for tests) -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-rest-assured</artifactId>
@@ -48,7 +48,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- JUnit 5 (JUnit Jupiter) для тестов -->
+        <!-- JUnit 5 (JUnit Jupiter) for tests -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -56,14 +56,14 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Gson для работы с JSON -->
+        <!-- Gson for working with JSON -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>${gson.version}</version>
         </dependency>
 
-        <!-- Allure Core (если используете аннотации Allure в основном коде) -->
+        <!-- Allure Core (if you use Allure annotations in the main code) -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-java-commons</artifactId>
@@ -74,7 +74,7 @@
 
     <build>
         <plugins>
-            <!-- Maven Surefire Plugin для запуска тестов -->
+            <!-- Maven Surefire Plugin for running tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
