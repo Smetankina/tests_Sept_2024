@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d9d85936-bd0e-4ff6-bbd0-b5b85fd76489" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/helpusdefend/TokenTest/CreateTokenNegativeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/helpusdefend/TokenTest/CreateTokenNegativeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,26 +32,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.CreateTokenNegativeTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CreateTokenPositiveTests.createUserTokenMissingFieldTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CreateTokenPositiveTests.createUserTokenMissingIdFieldTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CreateTokenPositiveTests.createUserTokenSuccessfullyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DeleteTokenPositiveTests.deleteNonExistentTokenTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DeleteTokenPositiveTests.deleteUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DeleteTokenPositiveTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.org.helpusdefend.TokenTest in access_token_generation_tests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/Diplom_Anna_Smetankina_15/Diplom_3&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Anna/IdeaProjects/access_token_generation_tests/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CreateTokenNegativeTests.executor": "Run",
+    "JUnit.CreateTokenPositiveTests.createUserTokenMissingFieldTest.executor": "Run",
+    "JUnit.CreateTokenPositiveTests.createUserTokenMissingIdFieldTest.executor": "Run",
+    "JUnit.CreateTokenPositiveTests.createUserTokenSuccessfullyTest.executor": "Run",
+    "JUnit.DeleteTokenPositiveTests.deleteNonExistentTokenTest.executor": "Run",
+    "JUnit.DeleteTokenPositiveTests.deleteUserTest.executor": "Run",
+    "JUnit.DeleteTokenPositiveTests.executor": "Run",
+    "JUnit.org.helpusdefend.TokenTest in access_token_generation_tests.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java/access_token_generation_tests",
+    "onboarding.tips.debug.path": "C:/Users/Anna/IdeaProjects/access_token_generation_tests/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.org.helpusdefend.TokenTest in access_token_generation_tests">
+}]]></component>
+  <component name="RunManager" selected="JUnit.CreateTokenNegativeTests">
     <configuration name="CreateTokenNegativeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="access_token_generation_tests" />
       <extension name="coverage">
@@ -131,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.org.helpusdefend.TokenTest in access_token_generation_tests" />
         <item itemvalue="JUnit.CreateTokenNegativeTests" />
+        <item itemvalue="JUnit.org.helpusdefend.TokenTest in access_token_generation_tests" />
         <item itemvalue="JUnit.CreateTokenPositiveTests.createUserTokenMissingFieldTest" />
         <item itemvalue="JUnit.CreateTokenPositiveTests.createUserTokenMissingIdFieldTest" />
         <item itemvalue="JUnit.CreateTokenPositiveTests.createUserTokenSuccessfullyTest" />

@@ -1,19 +1,19 @@
 package org.helpusdefend.TokenTest;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.helpusdefend.client.TokenClient;
-import org.helpusdefend.model.RandomUser;
 import org.helpusdefend.model.User;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
 
 import java.io.IOException;
-
-import static org.hamcrest.Matchers.equalTo;
+import java.util.stream.Stream;
 
 public class CreateTokenNegativeTests {
     TokenClient tokenClient;
@@ -22,48 +22,46 @@ public class CreateTokenNegativeTests {
     @BeforeEach
     public void setUp() {
         tokenClient = new TokenClient();
-        user = new RandomUser();
     }
 
-    //Missing field token
-    @Test
-    @Description("Test Case 1.2.1: Missing Fields Token in Request  returns 400 Bad request")
-    @DisplayName("Missing Token Fields in Request returns 400 Bad request")
-    public void createUserTokenMissingTokenFieldTest() throws IOException {
-        tokenClient.createToken(new User(RandomStringUtils.random(50, false, true)))
-                .then().statusCode(400);
+    // Method providing test data (various invalid user objects)
+    static Stream<User> provideInvalidUsers() {
+        return Stream.of(
+                new User(RandomStringUtils.random(50, false, true)), // Missing token field
+                new User(), // Missing both id and token fields
+                new User("", RandomStringUtils.random(50, true, true)), // Empty id field
+                new User(RandomStringUtils.random(50, false, true), "") // Empty token field
+        );
     }
 
-    //Missing field id and token Body:{}
-    @Test
-    @Description("Missing Id Token Fields in Request returns 400 Bad request")
-    @DisplayName("Test Case 1.2.2: Missing Fields in Request returns 400 Bad request")
-    public void createUserTokenMissingFieldTest() throws IOException {
-        tokenClient.createToken(new User())
-                .then().statusCode(400);
+    @ParameterizedTest
+    @MethodSource("provideInvalidUsers")
+    @Description("Check that creating a token with invalid data returns 400 Bad Request")
+    @DisplayName("Test creating token with invalid data")
+    public void createUserTokenNegativeTest(User invalidUser) throws IOException {
+        logTestData(invalidUser);
+        sendCreateTokenRequest(invalidUser);
     }
 
-    //Empty id:""
-    @Test
-    @Description("Empty Id Fields in Request returns 400 Bad request")
-    @DisplayName("Test Case 1.3.1: Invalid Data Types (the empty Id field) returns 400 Bad request")
-    public void createUserTokenEmptyIdFieldTest() throws IOException {
-        tokenClient.createToken(new User("", RandomStringUtils.random(50, true, true)))
-                .then().statusCode(400);
+    @Step("Send request to create token with invalid data")
+    public void sendCreateTokenRequest(User user) throws IOException {
+        String payload = user.toString(); // Convert the User object to a string (assuming the toString() method is correctly defined)
+        Allure.addAttachment("Request Payload", "application/json", payload);
+        tokenClient.createToken(user)
+                .then()
+                .statusCode(400)
+                .log().body(); // Log the response in the Allure report
     }
 
-    //Empty token:""
-    @Test
-    @Description("Empty Token Fields in Request returns 400 Bad request")
-    @DisplayName("Test Case 1.3.2: Invalid Data Types (the empty Token field) returns 400 Bad request")
-    public void createUserTokenEmptyTokenFieldTest() throws IOException {
-        tokenClient.createToken(new User(RandomStringUtils.random(50, false, true)))
-                .then().statusCode(400);
+    @Step("Test data: User object")
+    public void logTestData(User user) {
+        Allure.addAttachment("User Data", user.toString());
     }
-
 
     @AfterEach
     public void tearDown() {
-        tokenClient.deleteToken(user);
+        if (user != null && user.getToken() != null) {
+            tokenClient.deleteToken(user);
+        }
     }
 }
